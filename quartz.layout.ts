@@ -36,7 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({title: "Navigation Menu", 
                         folderClickBehavior: "link",        // so clicking folder navigates, not toggles collapse
   folderDefaultState: "open",          // so by default folders are expanded
-  useSavedState: true,                 // or false, depending on whether you want persistence
+  useSavedState: false,                 // or false, depending on whether you want persistence
                         }),
   ],
   right: [
@@ -64,7 +64,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({title: "Navigation Menu",
                        folderClickBehavior: "link",        // so clicking folder navigates, not toggles collapse
   folderDefaultState: "open",          // so by default folders are expanded
-  useSavedState: true,                 // or false, depending on whether you want persistence
+  useSavedState: false,                 // or false, depending on whether you want persistence
                         }),
   ],
   right: [],
