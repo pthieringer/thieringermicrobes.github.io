@@ -33,7 +33,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({title: "Navigation Menu"}),
+    Component.Explorer({title: "Navigation Menu", 
+                        folderClickBehavior: "link",        // so clicking folder navigates, not toggles collapse
+  folderDefaultState: "open",          // so by default folders are expanded
+  useSavedState: true,                 // or false, depending on whether you want persistence
+                        }),
   ],
   right: [
     Component.Graph(),
@@ -57,7 +61,11 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({title: "Navigation Menu"}),
+    Component.Explorer({title: "Navigation Menu",
+                       folderClickBehavior: "link",        // so clicking folder navigates, not toggles collapse
+  folderDefaultState: "open",          // so by default folders are expanded
+  useSavedState: true,                 // or false, depending on whether you want persistence
+                        }),
   ],
   right: [],
 }
