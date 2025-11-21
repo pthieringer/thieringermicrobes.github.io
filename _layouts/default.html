@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/_css/main.css"> <!-- your main CSS -->
+  <link rel="stylesheet" href="/_css/navbar.css"> <!-- navbar CSS -->
+  <style>
+    /* Navbar styles */
+    .navbar {
+      background-color: #003366; /* deep blue, like MarschmiLab */
+      padding: 12px 20px;
+      text-align: center;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-flex;
+      gap: 30px;
+    }
+
+    .navbar li {
+      display: inline;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      font-family: sans-serif;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffcc00; /* highlight color on hover */
+    }
+
+    /* Responsive: stack links on small screens */
+    @media (max-width: 600px) {
+      .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/research.html">Research</a></li>
+      <li><a href="/publications.html">Publications</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Patrick Thieringer © {{ "now" | date: "%Y" }}</p>
+  </footer>
+
+</body>
+</html>
