@@ -4,48 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/_css/main.css"> <!-- your main CSS -->
-  <link rel="stylesheet" href="/_css/navbar.css"> <!-- navbar CSS -->
-  <style>
-    /* Navbar styles */
-    .navbar {
-      background-color: #003366; /* deep blue, like MarschmiLab */
-      padding: 12px 20px;
-      text-align: center;
-    }
 
-    .navbar ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: inline-flex;
-      gap: 30px;
-    }
+  <!-- Global site styles -->
+  <link rel="stylesheet" href="/_css/main.css">
 
-    .navbar li {
-      display: inline;
-    }
+  <!-- Navbar styles -->
+  <link rel="stylesheet" href="/_css/navbar.css">
 
-    .navbar a {
-      text-decoration: none;
-      color: white;
-      font-weight: 600;
-      font-family: sans-serif;
-      transition: color 0.3s;
-    }
-
-    .navbar a:hover {
-      color: #ffcc00; /* highlight color on hover */
-    }
-
-    /* Responsive: stack links on small screens */
-    @media (max-width: 600px) {
-      .navbar ul {
-        flex-direction: column;
-        gap: 10px;
-      }
-    }
-  </style>
+  <!-- Optional: add site favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -60,14 +27,14 @@
     </ul>
   </nav>
 
-  <!-- Main Content -->
+  <!-- Main content -->
   <main>
     {{ content }}
   </main>
 
-  <!-- Footer -->
+  <!-- Optional: Footer -->
   <footer>
-    <p>Patrick Thieringer © {{ "now" | date: "%Y" }}</p>
+    <p>Patrick Thieringer © {{ site.time | date: "%Y" }}</p>
   </footer>
 
 </body>
