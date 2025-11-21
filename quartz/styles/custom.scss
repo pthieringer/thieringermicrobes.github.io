@@ -1,11 +1,46 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* --- Quartz: Force Explorer folders to always expand and hide collapse toggles --- */
+
+/* Make sure the explorer container is targeted */
+#sidebar .explorer,
 .explorer {
-  font-size: 0.95rem;   /* change to whatever you want */
+  /* ensure default styles don't clip children */
+  overflow: visible !important;
 }
 
-.explorer .folder, 
-.explorer .item {
-  font-size: 0.95rem;
+/* Always show children lists (accounts for common class names and aria attributes) */
+#sidebar .explorer .children,
+#sidebar .explorer .items,
+#sidebar .explorer .folder > ul {
+  display: block !important;
+  max-height: none !important;
+  height: auto !important;
+  visibility: visible !important;
+  overflow: visible !important;
 }
+
+/* Hide toggle buttons / chevrons so user can't collapse */
+#sidebar .explorer button[aria-expanded],
+#sidebar .explorer .collapse-toggle,
+#sidebar .explorer .chevron,
+#sidebar .explorer .toggle {
+  display: none !important;
+}
+
+/* Prevent click behavior from toggling (makes folder header act like plain text/link) */
+#sidebar .explorer .folder > .header,
+#sidebar .explorer .folder > .title,
+#sidebar .explorer .folder > a {
+  cursor: default !important;
+  pointer-events: auto; /* allow navigation on link elements if they are <a> */
+}
+
+/* If the folder headers are buttons, disable pointer events to stop toggling */
+#sidebar .explorer .folder > button {
+  pointer-events: none !important;
+  background: transparent !important;
+  border: none !important;
+}
+
