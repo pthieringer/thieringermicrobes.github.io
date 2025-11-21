@@ -59,12 +59,28 @@ export default ((userOpts?: Partial<Options>) => {
           <OverflowList class="explorer-ul" />
         </div>
 
-        {/* FILE TEMPLATE (unchanged) */}
-        <template id="template-file">
-          <li>
-            <a href="#"></a>
-          </li>
-        </template>
+        {/* FILE TEMPLATE */}
+<template id="template-file">
+  <li>
+    <a href="#"></a>
+  </li>
+</template>
+
+{/* FOLDER TEMPLATE (always-open, Quartz-compatible) */}
+<template id="template-folder">
+  <li>
+    <div class="folder-container always-open">
+      {/* the folder title that Quartz will fill */}
+      <span class="folder-title"></span>
+    </div>
+
+    {/* wrapper Quartz expects — it will inject <li> children into .content */}
+    <div class="folder-outer always-open">
+      <ul class="content"></ul>
+    </div>
+  </li>
+</template>
+
 
         {/* FOLDER TEMPLATE — remove folder-button + collapsing container */}
         <template id="template-folder">
