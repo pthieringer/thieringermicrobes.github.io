@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({title: "Explorer"}),
+    Component.Explorer({title: "Navigation Menu"}),
   ],
   right: [
     Component.Graph(),
@@ -57,7 +57,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({title: "Explorer"}),
+    Component.Explorer({title: "Navigation Menu"}),
   ],
   right: [],
 }
