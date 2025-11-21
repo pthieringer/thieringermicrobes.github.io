@@ -5,4 +5,12 @@
   display: none; /* hides only the title */
 }
 
+/* Hide post metadata: date and reading time */
+.post-meta,
+.post .meta,
+.metadata,
+.article-metadata {
+  display: none !important;
+}
+
 
