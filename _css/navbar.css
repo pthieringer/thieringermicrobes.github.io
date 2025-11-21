@@ -1,6 +1,5 @@
-/* navbar.css */
 .navbar {
-  background-color: #003366; /* deep blue */
+  background-color: #003366;
   padding: 12px 20px;
   text-align: center;
 }
@@ -21,7 +20,6 @@
   text-decoration: none;
   color: white;
   font-weight: 600;
-  font-family: sans-serif;
   transition: color 0.3s;
 }
 
@@ -29,7 +27,6 @@
   color: #ffcc00;
 }
 
-/* Responsive: stack links on small screens */
 @media (max-width: 600px) {
   .navbar ul {
     flex-direction: column;
