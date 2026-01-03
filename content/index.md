@@ -1,6 +1,7 @@
 ---
-title:
+title: '""'
 showTitle: "false"
+pageTitle: "false"
 ---
 
 
