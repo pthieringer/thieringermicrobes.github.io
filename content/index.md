@@ -1,5 +1,5 @@
 ---
-title: Home
+title:
 ---
 ![[IMG_6113.jpeg]]
 
