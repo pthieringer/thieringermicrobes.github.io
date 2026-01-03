@@ -4,6 +4,18 @@ title: Research
 Link to Google Scholar Page
 
 
+## Overview
+---
+
+
+Two guiding questions:
+
+*What are the selective pressures influencing the genomic structures of microbial populations that shape their evolution and ecology under environmental stress?*
+
+*Are the processes of microbial ecosystems observed in their environmental context beneficial in an applied context – can we learn how to harness a metabolic process for bioremediation or
+other bio-adapted mechanisms?*
+
+---
 ## Current Research Projects
 These are some active areas of research - prospective students in the lab should look here if they are interested in joining the lab.
 

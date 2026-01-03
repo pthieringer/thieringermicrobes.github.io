@@ -1,7 +1,7 @@
 ---
 title: Contact
 ---
-The best way to reach me generally is by email : patrick.thieringer@maris.edu
+The best way to reach me generally is by email : patrick.thieringer@marist.edu
 
 ### Prospective Students
 
