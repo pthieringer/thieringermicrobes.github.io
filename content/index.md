@@ -1,7 +1,8 @@
 ---
 title:
-showtitle: "false"
+showTitle: "false"
 ---
+
 
 
 ![[IMG_6113.jpeg]]
