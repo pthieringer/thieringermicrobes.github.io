@@ -1,14 +1,24 @@
-
-
+---
+title: Thieringer Lab
+---
 
 ![[IMG_6113.jpeg]]
 
 
-At the Thieringer Lab we study the ecology of microbial populations in .
+#### At the Thieringer Lab we study the microbial ecology and population-level dynamics revealed by genetic diversity in (mostly) subsurface environments.
 
 *Geomicrobiology, marine microbiology, population dynamics, bioinformatics*
 
-Located at Donnelly Hall Room ___ at Marist University
+<br>
 
-### Where to begin?
+#### Located at Donnelly Hall Room ___ at Marist University
 
+<br>
+
+#### Where to begin?
+
+Take an in depth look at different [[research]] projects.
+
+Look at the classes I am teaching and some other resources that might be useful.
+
+[[contact|Contact]] me if you are a student interested in gaining research experience or a collaborator who wants to reach out!

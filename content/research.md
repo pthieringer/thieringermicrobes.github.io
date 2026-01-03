@@ -1,8 +1,11 @@
 ---
 title: Research
 ---
+<br>
+
 Link to Google Scholar Page
 
+<br>
 
 ## Overview
 ---
