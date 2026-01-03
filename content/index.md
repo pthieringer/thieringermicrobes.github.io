@@ -1,8 +1,3 @@
----
-title: '""'
-showTitle: "false"
-pageTitle: "false"
----
 
 
 
