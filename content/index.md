@@ -19,6 +19,6 @@ title: Thieringer Lab
 
 Take an in depth look at different [[research]] projects.
 
-Look at the classes I am teaching and some other resources that might be useful.
+Look at the classes I am [[teaching]] and some other [[student resources|resources]] that might be useful.
 
 [[contact|Contact]] me if you are a student interested in gaining research experience or a collaborator who wants to reach out!

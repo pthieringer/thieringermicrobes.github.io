@@ -12,7 +12,7 @@ Link to [Google Scholar Page](https://scholar.google.com/citations?user=h5ia4ZMA
 ---
 Research in my lab encompasses a combination of field-based investigation and sample retrieval, molecular techniques, cultivation-based methods, and bioinformatic analyses. My research seeks to understand population-level dynamics of microorganisms within their environmental habitats to resolve how spatial, temporal, and biogeochemical features influence their ecology and evolution.
 
-Much of my interests and focus is guided by these two questions:
+Much of my interests and focus are guided by these two questions:
 
 *What are the selective pressures influencing the genomic structures of microbial populations that shape their evolution and ecology under environmental stress?*
 
@@ -26,6 +26,11 @@ other bio-adapted mechanisms?*
 These are some active areas of research - prospective students in the lab should look here if they are interested in joining the lab.
 
 #### <u>Estuaries</u>
+
+
+
+#### <u>Acid Mine Drainage</u>
+
 
 
 #### <u>Population Biology of Forgotten Microbes</u>
