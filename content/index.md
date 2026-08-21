@@ -11,7 +11,7 @@ title: Thieringer Lab
 
 <br>
 
-#### Located at Donnelly Hall Room ___ at Marist University
+#### Located at Donnelly Hall Room 240B at Marist University
 
 <br>
 
