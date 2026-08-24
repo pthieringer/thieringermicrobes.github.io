@@ -14,4 +14,12 @@
   display: none !important;
 }
 
+/* Fix scroll-jump: Quartz's base styles set content-visibility:auto on
+   all images, which delays layout until an image is about to scroll
+   into view, then recalculates its size at the last second -- shoving
+   the page around as it happens. Turning it off removes the jump. */
+img {
+  content-visibility: visible;
+}
+
 

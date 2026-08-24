@@ -181,19 +181,39 @@
 /* ---- Crop position (which part of the photo is kept) ----
    Use on any image inside .collage, .collage-grid-2/3/4, or
    .collage-nocrop. Default is centered if you add nothing. */
-:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-top {
+.collage img.pos-top,
+.collage-grid-2 img.pos-top,
+.collage-grid-3 img.pos-top,
+.collage-grid-4 img.pos-top,
+.collage-nocrop img.pos-top {
   object-position: top;
 }
-:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-bottom {
+.collage img.pos-bottom,
+.collage-grid-2 img.pos-bottom,
+.collage-grid-3 img.pos-bottom,
+.collage-grid-4 img.pos-bottom,
+.collage-nocrop img.pos-bottom {
   object-position: bottom;
 }
-:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-left {
+.collage img.pos-left,
+.collage-grid-2 img.pos-left,
+.collage-grid-3 img.pos-left,
+.collage-grid-4 img.pos-left,
+.collage-nocrop img.pos-left {
   object-position: left;
 }
-:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-right {
+.collage img.pos-right,
+.collage-grid-2 img.pos-right,
+.collage-grid-3 img.pos-right,
+.collage-grid-4 img.pos-right,
+.collage-nocrop img.pos-right {
   object-position: right;
 }
-:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-center {
+.collage img.pos-center,
+.collage-grid-2 img.pos-center,
+.collage-grid-3 img.pos-center,
+.collage-grid-4 img.pos-center,
+.collage-nocrop img.pos-center {
   object-position: center;
 }
 /* For anything more precise than top/bottom/left/right/center,
@@ -212,13 +232,18 @@
 /* ---- Cell span (Option B grid only) ----
    Let one photo take up more than one grid cell, so it reads
    as a "featured" image among smaller ones. */
-:is(.collage-grid-2, .collage-grid-3, .collage-grid-4) img.span-2 {
+.collage-grid-2 img.span-2,
+.collage-grid-3 img.span-2,
+.collage-grid-4 img.span-2 {
   grid-column: span 2;
 }
-:is(.collage-grid-3, .collage-grid-4) img.span-3 {
+.collage-grid-3 img.span-3,
+.collage-grid-4 img.span-3 {
   grid-column: span 3;
 }
-:is(.collage-grid-2, .collage-grid-3, .collage-grid-4) img.rowspan-2 {
+.collage-grid-2 img.rowspan-2,
+.collage-grid-3 img.rowspan-2,
+.collage-grid-4 img.rowspan-2 {
   grid-row: span 2;
   height: 100%;
 }
