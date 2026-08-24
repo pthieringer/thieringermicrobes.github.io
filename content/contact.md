@@ -24,4 +24,4 @@ I would suggest checking out the [[student resources]] page to see potential fun
 
 I am always looking and excited about potential collaborations! If you are inquiring to talk more about what the lab has to offer, my teaching practices, or general interests then don't hesitate to reach out.
 
-Feel free to send me an [email](patrick.thieringer@marist.edu) and I will be in touch!
+Feel free to send me an [[patrick.thieringer@marist.edu|email]] and I will be in touch!
