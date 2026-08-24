@@ -149,7 +149,7 @@ Complementary to the above work, I also spent time testing cultivate isolated AO
 ---
 #### <u>Microbial Community Dynamics & Lipid Biomarkers of the Samail Ophiolite</u>
 
-<img src="Methano_pan.png" class="align-right" style="width:350px;"> Sites of serpentinization are targets for astrobiological investigation due to their relevancy in Mars' geologic history. If we can understand a modern analogue, we might begin to understand what is happening (or has happened) on other planetary bodies.
+<img src="Methano_Pan.png" class="align-right" style="width:350px;"> Sites of serpentinization are targets for astrobiological investigation due to their relevancy in Mars' geologic history. If we can understand a modern analogue, we might begin to understand what is happening (or has happened) on other planetary bodies.
 
 My work helped to deconvolute the role of methanogenic populations within the hyperalkaline subsurface fluids. Guided by a pangenomic approach, three unique populations were discovered - two of which existed in the same and highest pH (11) fluids. By understanding their genomic repertoire, it was revealed that the populations were undergoing niche differentiation in order to circumnavigate nutrient limitations in this extreme environment. Different strategies for alternative carbon source usage and biofilm adherence supported these unique populations.
 
