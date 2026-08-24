@@ -28,7 +28,7 @@ Though inevitable with all research, unexplored questions arise that lead to eve
 ---
 These are some active areas of research - prospective students in the lab should look here if they are interested in joining the lab.
 
-#### <u>Estuaries</u>
+### <u>Estuaries</u>
 
 Estuaries encompass highly dynamic and variable (micro)environments. Tidal estuaries, such as the Hudson River, are tightly linked to the shifting water properties due to daily tidal inundation and other runoff influences. Natural salinity gradients occur not only horizontally, but also vertically that can create a density stratified water column. The Hudson River serves as an ideal model for understanding broader dynamics of an estuarine system spanning hundreds of miles from New York Bay to Troy. Given the seasonal patterns of hydrodynamic inputs of freshwater and the distinct salinity zones, the Hudson River serves as a model template to investigate what drives ecological relationships of microorganisms that inhabit this dynamic ecosystem.
 
@@ -55,7 +55,7 @@ This overall effort is meant to be a long term endeavor that encompasses many re
 
 <br>
 
-#### <u>Mine Drainage</u>
+### <u>Mine Drainage</u>
 
 While not as common on the east coast, abandoned mines can generate acidic waters as a result of dissolved sulfide or other metals-rich minerals. The Philips Mine in Garrison serves as a portal to understand what kind of microbial assemblages are shaped by these leftover tailings. Unique taxa typically contribute to low diversity, yet unique metabolic repertoire that must circumvent acidophilic conditions, high metals concentrations, and low nutrient availability. 
 
@@ -79,7 +79,7 @@ Some ares of interest include:
 
 <br class="clear">
 
-#### <u>Population Biology & Comparative Genomics of Forgotten Microbes</u>
+### <u>Population Biology & Comparative Genomics of Forgotten Microbes</u>
 
 The field of bioinformatics has blossomed because of the ongoing advances in next-generation sequencing (NGS). In this vein, it has become incredibly cheap to sequence an entire genome and relatively cheap to sequence a metagenome of an environmental sample. Due to the overabundance of sequencing efforts, most studies only focus on a niche microorganism and then the rest of the data is left in the dregs! 
 
@@ -93,7 +93,7 @@ Some questions of interest:
 
 <br> 
 
-#### <u>Cultivation Experiments</u>
+### <u>Cultivation Experiments</u>
 
 What good is all of this 'omics data if we don't understand the physiology of these microbes?
 
