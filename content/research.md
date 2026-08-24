@@ -51,7 +51,7 @@ This overall effort is meant to be a long term endeavor that encompasses many re
 
 
 
-<br> *Figures from [Crump & Bowen (2024)](https://www.annualreviews.org/content/journals/10.1146/annurev-marine-022123-101845) and [Scanes et al. (2017)](https://link.springer.com/chapter/10.1007/978-94-024-0990-1_2)*
+<br class="clear"> *Figures from [Crump & Bowen (2024)](https://www.annualreviews.org/content/journals/10.1146/annurev-marine-022123-101845) and [Scanes et al. (2017)](https://link.springer.com/chapter/10.1007/978-94-024-0990-1_2)*
 
 <br>
 
@@ -73,7 +73,7 @@ Some ares of interest include:
   <img src="PM_tailings.jpeg">
 </div>
 
-<br> 
+<br class="clear"> 
 *Site of Philips Mine and water pH values of drainage runoff from Gilchrest et al. (2009) (top left), abandoned mine entrance (top right), iron-precipitating biofilms at the beginning of the brook (bottom left), mine tailings with little to no vegetation growth (bottom right)*
 
 <br>
