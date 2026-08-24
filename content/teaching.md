@@ -42,7 +42,7 @@ Here are some resources that might prove useful if you are new to the command li
 
 [https://biovcnet.github.io](https://biovcnet.github.io) | The Bioinformatics Virtual Coordination Network brought together a lot of strong researchers in bioinformatics to provide lectures and tutorials around many aspects of computational biology. 
 
-[https://riffomonas.org ](https://riffomonas.org) | Pat Schloss created a website and Youtube series that has proven to be a remarkable resource for understanding how to operate in R and perform various data analyses in depth. 
+[https://riffomonas.org](https://riffomonas.org) | Pat Schloss created a website and Youtube series that has proven to be a remarkable resource for understanding how to operate in R and perform various data analyses in depth. 
 
 [https://github.com/pthieringer](https://github.com/pthieringer) | My own Github repository in case you want to look at any of my previous or ongoing research projects :)
 
