@@ -78,6 +78,7 @@ Some ares of interest include:
 *Site of Philips Mine and water pH values of drainage runoff from Gilchrest et al. (2009) (top left), abandoned mine entrance (top right), iron-precipitating biofilms at the beginning of the brook (bottom left), mine tailings with little to no vegetation growth (bottom right)*
 
 <br class="clear">
+
 #### <u>Population Biology & Comparative Genomics of Forgotten Microbes</u>
 
 The field of bioinformatics has blossomed because of the ongoing advances in next-generation sequencing (NGS). In this vein, it has become incredibly cheap to sequence an entire genome and relatively cheap to sequence a metagenome of an environmental sample. Due to the overabundance of sequencing efforts, most studies only focus on a niche microorganism and then the rest of the data is left in the dregs! 
@@ -126,7 +127,7 @@ Here are some examples of field work and research projects I have conducted or c
 ---
 #### <u>Deep Ocean Population Biology & High-Pressure Cultivation</u>
 
-<img src="Ecotypes.png" class="align-right" style="width:300px;">
+<img src="Ecotypes.png" class="align-right" style="width:215px;">
 My postdoctoral work continued on the theme of subsurface microbial life, but instead into the marine biosphere. I worked on understanding the dispersal of ammonia-oxidizing archaea (AOA) throughout the water column especially in the deep ocean. This research helped to reveal how AOA are one of the most abundant microbial members below the mesopelagic zone and circumvent high hydrostatic pressure. Implementing efforts in long-read sequencing reconstructed some of the first genomes of AOA belonging to this part of the ocean. In particular, I focused on population biology metrics and microdiversity analysis of genetic information contained by their genomes and revealed by patterns of Single Nucleotide Variants (SNVs). This helped to shape how ecotypes were defined along the water column beyond physical location within the system, instead guided by genomic content. Further, this work shed light on specific genes under positive selection pressures that indicate local adaptations of unique populations within bathypelagic waters.
 
 <br> 
