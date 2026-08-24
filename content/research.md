@@ -73,7 +73,9 @@ Some ares of interest include:
   <img src="PM_tailings.jpeg">
 </div>
 
+<br> 
 *Site of Philips Mine and water pH values of drainage runoff from Gilchrest et al. (2009) (top left), abandoned mine entrance (top right), iron-precipitating biofilms at the beginning of the brook (bottom left), mine tailings with little to no vegetation growth (bottom right)*
+
 <br>
 #### <u>Population Biology & Comparative Genomics of Forgotten Microbes</u>
 
