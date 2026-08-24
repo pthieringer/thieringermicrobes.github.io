@@ -13,7 +13,7 @@ If you are a student wishing to join the lab for some research experience, pleas
 
 I would suggest checking out the [[student resources]] page to see potential funding, stipend, or research credit opportunities that might be relevant to your interests. This may require collaborative efforts on your and my end to write a proposal for a grant. You must reach out EARLY to begin any of these applications.
 
-**Once you have done the above please [fill out this form]([Thieringer Lab Research Application Form – Fill out form](https://forms.cloud.microsoft/r/7PmsnTKewb)).**
+**Once you have done the above please [fill out this form](Thieringer Lab Research Application Form – Fill out form](https://forms.cloud.microsoft/r/7PmsnTKewb).**
 
 <br>
 
