@@ -67,7 +67,7 @@ Some ares of interest include:
 <br>
 #### <u>Population Biology & Comparative Genomics of Forgotten Microbes</u>
 
-![[Ecotypes.png|310x583]]
+![[Ecotypes.png|309x581]]
 The field of bioinformatics has blossomed because of the ongoing advances in next-generation sequencing (NGS). In this vein, it has become incredibly cheap to sequence an entire genome and relatively cheap to sequence a metagenome of an environmental sample. ! Due to the overabundance of sequencing efforts, most studies only focus on a niche microorganism and then the rest of the data is left in the dregs! 
 
 The focus on this work includes resolving the complete picture of the microbial community in these pre-existing datasets. These microbial members of interest could span from the rare biosphere (<1% abundance) to some of the key taxa that dominate their environments. This research topic will also involve discovering datasets that have not been fully exploited (shamelessly, this includes some of my own previous sequencing efforts). Some of the topics included in this work could be: read recruitment strategies, phylogenetic reconstructions, pangenomic analyses, and comparison of microdiversity metrics.
