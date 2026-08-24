@@ -75,7 +75,7 @@ Some ares of interest include:
 
 <br class="clear"> 
 
-*Site of Philips Mine and water pH values of drainage runoff from Gilchrest et al. (2009) (top left), abandoned mine entrance (top right), iron-precipitating biofilms at the beginning of the brook (bottom left), mine tailings with little to no vegetation growth (bottom right)*
+*Site of Philips Mine and water pH values of drainage runoff from Gilchrest et al. (2009) (top left), abandoned mine entrance (top middle), iron-precipitating biofilms at the beginning of the brook (top right), mine tailings with little to no vegetation growth (bottom)*
 
 <br class="clear">
 
