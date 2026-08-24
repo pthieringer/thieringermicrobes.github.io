@@ -74,9 +74,10 @@ Some ares of interest include:
 </div>
 
 <br class="clear"> 
+
 *Site of Philips Mine and water pH values of drainage runoff from Gilchrest et al. (2009) (top left), abandoned mine entrance (top right), iron-precipitating biofilms at the beginning of the brook (bottom left), mine tailings with little to no vegetation growth (bottom right)*
 
-<br>
+<br class="clear">
 #### <u>Population Biology & Comparative Genomics of Forgotten Microbes</u>
 
 The field of bioinformatics has blossomed because of the ongoing advances in next-generation sequencing (NGS). In this vein, it has become incredibly cheap to sequence an entire genome and relatively cheap to sequence a metagenome of an environmental sample. Due to the overabundance of sequencing efforts, most studies only focus on a niche microorganism and then the rest of the data is left in the dregs! 
@@ -133,7 +134,7 @@ My postdoctoral work continued on the theme of subsurface microbial life, but in
 **Paper coming soon**
 
 
-<br>
+<br class="clear">
 
 <br>
 
