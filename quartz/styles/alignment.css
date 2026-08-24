@@ -1,0 +1,257 @@
+/* =========================================================
+   Alignment utility classes for Quartz + Obsidian notes
+   Usage: add class="align-center" (etc.) to an <img> or
+   wrap text in a <div class="text-right"> block.
+   ========================================================= */
+
+/* ---------- IMAGE ALIGNMENT ---------- */
+
+/* Center an image, no text wrap */
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Left-aligned image, text wraps around the right side */
+.align-left {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+/* Right-aligned image, text wraps around the left side */
+.align-right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+/* Left-pinned image, no text wrap (use instead of .align-left
+   if you don't want surrounding paragraph text to wrap) */
+.align-left-block {
+  display: block;
+  margin-right: auto;
+}
+
+/* Right-pinned image, no text wrap */
+.align-right-block {
+  display: block;
+  margin-left: auto;
+}
+
+/* Optional: cap image width so alignment is visually obvious.
+   Remove or adjust if you'd rather control width per-image. */
+.align-center,
+.align-left,
+.align-right,
+.align-left-block,
+.align-right-block {
+  max-width: 100%;
+}
+
+/* ---------- TEXT ALIGNMENT ---------- */
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Clear floats after an aligned image + wrapped text block,
+   so content below doesn't get sucked up next to the image.
+   Add class="clear" to a following element (e.g. a heading)
+   if you notice layout bleeding. */
+.clear {
+  clear: both;
+}
+
+/* =========================================================
+   COLLAGE / IMAGE GRID
+   Wrap a group of images in one of the containers below to
+   lay them out edge-to-edge with even spacing and no ragged
+   gaps. Works with any number of images inside.
+   ========================================================= */
+
+/* ---- Option A: Justified flexbox row(s) ----
+   Best for a mixed batch of images with different aspect
+   ratios. Images fill the full width, wrap to new rows as
+   needed, and are cropped (object-fit) to a uniform row
+   height so nothing looks ragged. */
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 100%;
+}
+.collage img {
+  flex: 1 1 auto;
+  min-width: 150px;
+  height: 260px;       /* uniform row height, adjust to taste */
+  object-fit: cover;   /* crops to fill, no distortion */
+  width: auto;
+  margin: 0;
+}
+
+/* Shorter row height variant */
+.collage.collage-short img {
+  height: 160px;
+}
+/* Taller row height variant */
+.collage.collage-tall img {
+  height: 360px;
+}
+
+/* ---- Option B: Fixed-column grid ----
+   Best when you want a clean, even N-column grid rather than
+   a flowing justified row. Pick the column count you want. */
+.collage-grid-2,
+.collage-grid-3,
+.collage-grid-4 {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+}
+.collage-grid-2 { grid-template-columns: repeat(2, 1fr); }
+.collage-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.collage-grid-4 { grid-template-columns: repeat(4, 1fr); }
+
+.collage-grid-2 img,
+.collage-grid-3 img,
+.collage-grid-4 img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;  /* square cells; remove if you don't want cropping to square */
+  object-fit: cover;
+  display: block;
+  margin: 0;
+}
+
+/* Responsive: drop grids to fewer columns on narrow screens */
+@media (max-width: 600px) {
+  .collage-grid-3,
+  .collage-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---- Option C: No-crop collage ----
+   Shows each full image with nothing cut off. Trade-off: since
+   no cropping happens, rows won't line up perfectly edge-to-edge
+   the way Option A/B do — some uneven spacing is unavoidable
+   when images have different aspect ratios. Each image is
+   letterboxed inside a uniform-height box instead of being cropped.
+   */
+.collage-nocrop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 100%;
+}
+.collage-nocrop img {
+  flex: 1 1 auto;
+  min-width: 150px;
+  height: 260px;            /* uniform box height */
+  width: auto;
+  object-fit: contain;      /* shows full image, no cropping */
+  background: var(--collage-nocrop-bg, #00000010); /* subtle letterbox fill; override or remove as you like */
+  margin: 0;
+}
+
+/* Shorter / taller box height variants, same as Option A */
+.collage-nocrop.collage-short img {
+  height: 160px;
+}
+.collage-nocrop.collage-tall img {
+  height: 360px;
+}
+
+/* =========================================================
+   PER-IMAGE ADJUSTMENTS WITHIN A COLLAGE
+   Add these as EXTRA classes on an individual <img>, alongside
+   whatever collage container it's in, to control which part of
+   that specific photo shows (crop position) and how much space
+   it takes up in the row/grid.
+   ========================================================= */
+
+/* ---- Crop position (which part of the photo is kept) ----
+   Use on any image inside .collage, .collage-grid-2/3/4, or
+   .collage-nocrop. Default is centered if you add nothing. */
+:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-top {
+  object-position: top;
+}
+:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-bottom {
+  object-position: bottom;
+}
+:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-left {
+  object-position: left;
+}
+:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-right {
+  object-position: right;
+}
+:is(.collage, .collage-grid-2, .collage-grid-3, .collage-grid-4, .collage-nocrop) img.pos-center {
+  object-position: center;
+}
+/* For anything more precise than top/bottom/left/right/center,
+   skip these classes and set it directly on the image instead:
+   <img src="photo.jpg" style="object-position: 30% 70%;">
+   (first number = horizontal %, second = vertical %) */
+
+/* ---- Row width (Option A / .collage only) ----
+   Make one photo wider or narrower than its neighbors in the
+   same row. Higher grow number = more horizontal space. */
+.collage img.grow-1 { flex-grow: 1; }
+.collage img.grow-2 { flex-grow: 2; }
+.collage img.grow-3 { flex-grow: 3; }
+.collage img.shrink { flex-grow: 0; flex-basis: 120px; }
+
+/* ---- Cell span (Option B grid only) ----
+   Let one photo take up more than one grid cell, so it reads
+   as a "featured" image among smaller ones. */
+:is(.collage-grid-2, .collage-grid-3, .collage-grid-4) img.span-2 {
+  grid-column: span 2;
+}
+:is(.collage-grid-3, .collage-grid-4) img.span-3 {
+  grid-column: span 3;
+}
+:is(.collage-grid-2, .collage-grid-3, .collage-grid-4) img.rowspan-2 {
+  grid-row: span 2;
+  height: 100%;
+}
+
+/* ---- Option D: Equal-width, no-crop row (best for 2-3 photos) ----
+   Splits the row into equal-width columns and lets each image's
+   height follow naturally from its own aspect ratio. Guarantees
+   the row fills edge-to-edge with zero cropping and zero gaps.
+   Trade-off: if the photos have different proportions, their
+   heights won't perfectly match (see note below). */
+.collage-grid-2.nocrop img,
+.collage-grid-3.nocrop img,
+.collage-grid-4.nocrop img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: initial;
+  align-self: center; /* keeps shorter image vertically centered against a taller neighbor */
+}
+
+/* ---- Option E: Same-size boxes, no crop (letterboxed) ----
+   Every image sits in an identical box (same width AND height),
+   with the full photo visible inside — nothing cropped. Photos
+   that don't match the box's proportions get a thin padding
+   strip on two sides instead of being cut off. This is the only
+   way to guarantee equal size with zero cropping when photos
+   have different aspect ratios. */
+.collage-grid-2.samesize img,
+.collage-grid-3.samesize img,
+.collage-grid-4.samesize img {
+  object-fit: contain;
+  background: var(--collage-nocrop-bg, #00000010);
+}
+/* Cells default to square (from the base grid rule above).
+   To use a non-square box instead, override on the container, e.g.:
+   .collage-grid-2.samesize img { aspect-ratio: 4 / 3; } */
