@@ -18,6 +18,8 @@ I would suggest checking out the [[student resources]] page to see potential fun
 <br>
 
 ---
+<br>
+
 ### Collaborations
 
 I am always looking and excited about potential collaborations! If you are inquiring to talk more about what the lab has to offer, my teaching practices, or general interests then don't hesitate to reach out.

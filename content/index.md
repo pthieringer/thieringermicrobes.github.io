@@ -10,15 +10,14 @@ title: Thieringer Lab
 *Geomicrobiology, marine microbiology, population dynamics, bioinformatics*
 
 <br>
-
-#### Located at Donnelly Hall Room 240B at Marist University
-
 <br>
 
 #### Where to begin?
 
-Take an in depth look at different [[research]] projects.
+Take an in-depth look at different [[research]] projects.
 
 Look at the classes I am [[teaching]] and some other [[student resources|resources]] that might be useful.
 
 [[contact|Contact]] me if you are a student interested in gaining research experience or a collaborator who wants to reach out!
+
+Come stop by the lab at Donnelly Hall 240B, just down the hall from my office, if you want to try and chat in-person.

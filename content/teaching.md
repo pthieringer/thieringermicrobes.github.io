@@ -3,28 +3,33 @@ title: Teaching
 ---
 <br>
 
-### Courses
+## Courses
 ---
 Below are a list of the courses I teach at Marist including course descriptions and a link to the syllabus.
 
+<br>
+
 **BIOL320 - Genetics**
+
 A study of transmission, population, molecular, and cytogenetics. Both in the classroom and the laboratory, the emphasis is on reinforcing basic concepts through a study of the classic experiments in genetics as well as current research.
 Syllabus
 
 <a href="Fall-2026-BIOL-320L-113-GENETICS.pdf" target="_blank" rel="noopener">Syllabus</a>
 
 **BIOL392 - Microbial Bioinformatics**
+
 The rapid advancement of next-generation sequencing technologies has transformed the way we can conduct research in the realm of biology. In this course, students will be introduced to foundational computational and bioinformatics tools necessary to analyze sequencing data. With a focus on microorganisms (bacteria and archaea), this course will cover topics such as: genome assembly, read recruitment, taxonomic and functional annotation, and phylogenetic reconstructions. This course will concentrate on student-driven research questions around a genome they will analyze throughout the semester. This could pertain to areas involving environmental microbiology and effects on agriculture, as well as links towards human health. Students will also learn to assess other genomic or bioinformatic research from recent relevant literature. No prior programming or computational skills are required to take this course.
 
-<a href="content/images/Fall-2026-BIOL-392L-111-SP-TOP_BIOL-III.pdf" target="_blank" rel="noopener">Syllabus</a>
+<a href="Fall-2026-BIOL-392L-111-SP-TOP_BIOL-III.pdf" target="_blank" rel="noopener">Syllabus</a>
 
 **BIOL477 - Capping**
+
 A capping course required for all Senior Biology, Biomedical Science and Biology Education majors. Topics vary. Offered every semester.
 
-<a href="content/images/Spring-2026-BIOL-477L-114-BIOLOGY-CAPPING.pdf" target="_blank" rel="noopener">Syllabus</a>
+<a href="Spring-2026-BIOL-477L-114-BIOLOGY-CAPPING.pdf" target="_blank" rel="noopener">Syllabus</a>
 <br>
 
-### Learning Resources & Open Access
+## Learning Resources & Open Access
 ---
 
 Here are some resources that might prove useful if you are new to the command line interface or excited to dig into anything related to bioinformatics.
@@ -43,7 +48,7 @@ Here are some resources that might prove useful if you are new to the command li
 
 <br>
 
-**A note about accessibility:**
+### **A note about accessibility:**
 
 My research and opportunities for education are grounded by the generosity of others who have made their data and teaching resources available to others. This goes beyond just plugging a generic SOP or set of instructions. All of the people and groups mentioned above (and in countless other scenarios) have contributed greatly to my understanding of how to conduct bioinformatics and research in general by making their own findings available to everyone and allowing those data to be reproducible as well. 
 
