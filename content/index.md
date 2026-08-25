@@ -5,14 +5,13 @@ title: Thieringer Lab
 ![[IMG_6113.jpeg]]
 
 
-#### At the Thieringer Lab we study the microbial ecology and population-level dynamics revealed by genetic diversity in (mostly) subsurface environments.
+### At the Thieringer Lab we study the microbial ecology and population-level dynamics revealed by genetic diversity in (mostly) subsurface environments.
 
 *Geomicrobiology, marine microbiology, population dynamics, bioinformatics*
 
 <br>
-<br>
 
-#### Where to begin?
+### Where to begin?
 
 Take an in-depth look at different [[research]] projects.
 

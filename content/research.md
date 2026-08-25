@@ -28,7 +28,7 @@ Though inevitable with all research, unexplored questions arise that lead to eve
 ---
 These are some active areas of research - prospective students in the lab should look here if they are interested in joining the lab.
 
-#### <u>Estuaries</u>
+### <u>Estuaries</u>
 
 Estuaries encompass highly dynamic and variable (micro)environments. Tidal estuaries, such as the Hudson River, are tightly linked to the shifting water properties due to daily tidal inundation and other runoff influences. Natural salinity gradients occur not only horizontally, but also vertically that can create a density stratified water column. The Hudson River serves as an ideal model for understanding broader dynamics of an estuarine system spanning hundreds of miles from New York Bay to Troy. Given the seasonal patterns of hydrodynamic inputs of freshwater and the distinct salinity zones, the Hudson River serves as a model template to investigate what drives ecological relationships of microorganisms that inhabit this dynamic ecosystem.
 
@@ -55,7 +55,7 @@ This overall effort is meant to be a long term endeavor that encompasses many re
 
 <br>
 
-#### <u>Mine Drainage</u>
+### <u>Mine Drainage</u>
 
 While not as common on the east coast, abandoned mines can generate acidic waters as a result of dissolved sulfide or other metals-rich minerals. The Philips Mine in Garrison serves as a portal to understand what kind of microbial assemblages are shaped by these leftover tailings. Unique taxa typically contribute to low diversity, yet unique metabolic repertoire that must circumvent acidophilic conditions, high metals concentrations, and low nutrient availability. 
 
@@ -79,7 +79,7 @@ Some ares of interest include:
 
 <br class="clear">
 
-#### <u>Population Biology & Comparative Genomics of Forgotten Microbes</u>
+### <u>Population Biology & Comparative Genomics of Forgotten Microbes</u>
 
 The field of bioinformatics has blossomed because of the ongoing advances in next-generation sequencing (NGS). In this vein, it has become incredibly cheap to sequence an entire genome and relatively cheap to sequence a metagenome of an environmental sample. Due to the overabundance of sequencing efforts, most studies only focus on a niche microorganism and then the rest of the data is left in the dregs! 
 
@@ -93,7 +93,7 @@ Some questions of interest:
 
 <br> 
 
-#### <u>Cultivation Experiments</u>
+### <u>Cultivation Experiments</u>
 
 What good is all of this 'omics data if we don't understand the physiology of these microbes?
 
@@ -125,7 +125,7 @@ Direct questions or ideas will be relevant towards specific enrichments or isola
 Here are some examples of field work and research projects I have conducted or collaborated on.
 
 ---
-#### <u>Deep Ocean Population Biology & High-Pressure Cultivation</u>
+### <u>Deep Ocean Population Biology & High-Pressure Cultivation</u>
 
 <img src="Ecotypes.png" class="align-right" style="width:215px;">
 My postdoctoral work continued on the theme of subsurface microbial life, but instead into the marine biosphere. I worked on understanding the dispersal of ammonia-oxidizing archaea (AOA) throughout the water column especially in the deep ocean. This research helped to reveal how AOA are one of the most abundant microbial members below the mesopelagic zone and circumvent high hydrostatic pressure. Implementing efforts in long-read sequencing reconstructed some of the first genomes of AOA belonging to this part of the ocean. In particular, I focused on population biology metrics and microdiversity analysis of genetic information contained by their genomes and revealed by patterns of Single Nucleotide Variants (SNVs). This helped to shape how ecotypes were defined along the water column beyond physical location within the system, instead guided by genomic content. Further, this work shed light on specific genes under positive selection pressures that indicate local adaptations of unique populations within bathypelagic waters.
@@ -147,7 +147,7 @@ Complementary to the above work, I also spent time testing cultivate isolated AO
 <br>
 
 ---
-#### <u>Microbial Community Dynamics & Lipid Biomarkers of the Samail Ophiolite</u>
+### <u>Microbial Community Dynamics & Lipid Biomarkers of the Samail Ophiolite</u>
 
 <img src="Methano_Pan.png" class="align-right" style="width:350px;"> Sites of serpentinization are targets for astrobiological investigation due to their relevancy in Mars' geologic history. If we can understand a modern analogue, we might begin to understand what is happening (or has happened) on other planetary bodies.
 
@@ -164,7 +164,7 @@ Additional work was conducted to determine the biogeography of different microbi
 <br>
 
 ---
-#### <u>Spatial & Temporal constraints of microbes in boreholes of the Edgar Experimental Mine</u>
+### <u>Spatial & Temporal constraints of microbes in boreholes of the Edgar Experimental Mine</u>
 
 The Edgar Experimental Mine is a premier research and teaching portal into the subsurface. It was once an active economic mining site, but now is repurposed for use by the Colorado School Mines for demonstration and education purposes. We took advantage of this opportunity to explore the subsurface fluid hosted microbial communities within previously drilled boreholes. A "packer" device sealed the borehole to allow fluid to build up and allow for frequent sampling trips to extract for DNA and geochemistry. We discovered that microbial communities are highly dynamic at spatial scales <20 cm apart, and can display varying isolation/connectedness to surface meteoric input. 
 
@@ -179,7 +179,7 @@ This project was only an initial foray into the geobiological research that coul
 <br>
 
 ---
-#### <u>Yellowstone National Park Silicified Microbes</u>
+### <u>Yellowstone National Park Silicified Microbes</u>
 
 Dr. Kalen Rasmussen wrote what I would consider to be the epitome of a geomicrobiology study. Titled "Living to Lithified", this work looks how microbial communities and lipid biomarkers shift along different degrees of silicification. I participated in field work sample collection and measurements as well as conducting a portion of the lipid analyses. 
 

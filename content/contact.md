@@ -7,7 +7,7 @@ The best way to reach me generally is by email : patrick.thieringer@marist.edu
 
 <br>
 
-### Prospective Students
+## Prospective Students
 
 If you are a student wishing to join the lab for some research experience, please first take a look through the current [[research]] projects to see if any interest you. Then take a moment to think about how that project relates to your overall interests or career trajectory. 
 
@@ -20,7 +20,7 @@ I would suggest checking out the [[student resources]] page to see potential fun
 ---
 <br>
 
-### Collaborations
+## Collaborations
 
 I am always looking and excited about potential collaborations! If you are inquiring to talk more about what the lab has to offer, my teaching practices, or general interests then don't hesitate to reach out.
 

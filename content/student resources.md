@@ -3,7 +3,7 @@ title: Student Resources
 ---
 <br>
 
-### Marist Support 
+## Marist Support 
 ---
 
 ##### School of Science Summer Research Awards
@@ -15,7 +15,7 @@ These are typically ~$4500 over the course of 8 weeks and are typically distribu
 
 <br>
 
-### External Funding or Grant Opportunities
+## External Funding or Grant Opportunities
 ---
 
 ##### NSF REU (Research Experiences for Undergraduates) Program
@@ -56,7 +56,7 @@ Here are two different opportunities that focus mainly on marine science focused
 <br>
 
 
-### Generally a great resource to navigate funding opportunities
+## Generally a great resource to navigate funding opportunities
 ---
 
 ##### Pathways to Science
