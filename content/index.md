@@ -2,7 +2,7 @@
 title: Thieringer Lab
 ---
 
-![[IMG_6113.jpeg]]
+![[Front_Page.png]]
 
 
 <p style="font-size:1.3em; font-weight:700;">At the Thieringer Lab we study the microbial ecology and population-level dynamics revealed by genetic diversity in (mostly) subsurface environments.</p>
