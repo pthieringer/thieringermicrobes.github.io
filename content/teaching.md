@@ -5,14 +5,13 @@ title: Teaching
 
 ## Courses
 ---
-Below are a list of the courses I teach at Marist including course descriptions and a link to the syllabus.
+Below are a list of the classes I teach at Marist including course descriptions and a link to the syllabus.
 
 <br>
 
 **BIOL320 - Genetics**
 
 A study of transmission, population, molecular, and cytogenetics. Both in the classroom and the laboratory, the emphasis is on reinforcing basic concepts through a study of the classic experiments in genetics as well as current research.
-Syllabus
 
 <a href="Fall-2026-BIOL-320L-113-GENETICS.pdf" target="_blank" rel="noopener">Syllabus</a>
 
